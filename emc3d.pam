@@ -1,0 +1,9 @@
+RockTest51x51x51.txt                    : File Location
+51 51 51                             	: nx, ny, nz
+1.0e-7                         		: Conv criteria      
+0                                       : Header Lines
+1                       		: Write Stress (0=no;1=yes)  
+2                      	     		: No of Phase 
+0.1 0 0.1                               : K,mu,density (phase 0 - Brine) 
+36.6 44.0 2.65                          : K,mu,density (phase 1 - Quartz)
+0.001 0.001 0.001 0.002 0.002 0.002       : Applied strain (engineering)

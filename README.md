@@ -64,3 +64,16 @@ Vs      :      0.60711
 E       :      1.37881
 Poisson :      0.27200
 ```
+If Write Stress line = 1, an additional file with 6 columns corresponding to all stress components per cell will be created named **stressField.dat**, the order of  the columns is Sxx, Syy, Szz, Szx, Syz, Sxy, where S is the stress tensor. The columns are flattened 3D matrices, here we show the first 10 lines of the file:
+```
+ 0.51406E-02   0.51988E-02   0.51911E-02   0.16146E-03   0.15384E-03   0.15553E-03
+ 0.57638E-02   0.53644E-02   0.53572E-02   0.85275E-04   0.28071E-04   0.81773E-04
+ 0.55770E-02   0.52751E-02   0.52671E-02  -0.90293E-04   0.16855E-04  -0.93539E-04
+ 0.62704E-02   0.50232E-02   0.50157E-02   0.12545E-04   0.14139E-04   0.91793E-05
+ 0.65789E-02   0.47007E-02   0.46949E-02   0.77964E-04   0.55136E-04   0.73131E-04
+ 0.72758E-02   0.44111E-02   0.44085E-02   0.41815E-04   0.22606E-04   0.39162E-04
+ 0.78357E-02   0.39731E-02   0.39750E-02  -0.33490E-04   0.94537E-04  -0.35340E-04
+ 0.88630E-02   0.35670E-02   0.35752E-02   0.11585E-03   0.84709E-04   0.11275E-03
+ 0.10188E-01   0.31005E-02   0.31173E-02   0.61505E-04  -0.10273E-04   0.60362E-04
+ 0.11729E-01   0.26356E-02   0.26573E-02   0.59888E-04  -0.53882E-04   0.58532E-04
+```
